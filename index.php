@@ -4,7 +4,7 @@
 	$is_produksi = false;
 
 	$api_url = $is_produksi ? 'https://app.midtrans.com/snap/v1/transactions' : 
-  'https://api.sandbox.midtrans.com';
+  'https://app.sandbox.midtrans.com/snap/v1/transactions';
 
   	if( !strpos($_SERVER['REQUEST_URI'], '/charge') ) {
   		http_response_code(404); 
