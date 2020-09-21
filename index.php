@@ -48,4 +48,5 @@
 	    'http_code' => curl_getinfo($ch, CURLINFO_HTTP_CODE),
 	  );
 	  return $result;
+	}
 ?>
