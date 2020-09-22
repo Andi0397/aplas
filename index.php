@@ -3,11 +3,11 @@
 
 	$is_produksi = false;
 
-	// $api_url = $is_produksi ? 'https://app.midtrans.com/snap/v1/transactions' : 
- //  'https://app.sandbox.midtrans.com/snap/v1/transactions';
+	$api_url = $is_produksi ? 'https://app.midtrans.com/snap/v1/transactions' : 
+  'https://app.sandbox.midtrans.com/snap/v1/transactions';
 
-		$api_url = $is_produksi ? 'https://api.midtrans.com' : 
-  'https://api.sandbox.midtrans.com';
+		// $api_url = $is_produksi ? 'https://api.midtrans.com' : 
+  // 'https://api.sandbox.midtrans.com';
 
 
   	if( !strpos($_SERVER['REQUEST_URI'], '/charge') ) {
