@@ -1,5 +1,5 @@
 <?php
-	$server_key = "SB-Mid-server-wMxqmFeo8u2b--JcruBmvxb8";
+	$server_key = "SB-Mid-server-6LFnHZ7802_lvTc4C6NaTPYf";
 
 	$is_produksi = false;
 
